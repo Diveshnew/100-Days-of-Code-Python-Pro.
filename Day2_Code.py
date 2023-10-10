@@ -63,6 +63,15 @@ print(3 * 3 + 3 / 3 -3 )
 print( 3 * (3 + 3) / 3 - 3 )
 
 
+#Bmi Calculator
+height = input("Enter Your height in m:")
+weight = input("Enter Your weight in kg:")
+
+bmi = int(weight)/float(height) ** 2
+bmi_as_int = int(bmi)
+print(bmi_as_int)
+
+
 # Rounding the value of a number
 print(round(8/3,2))
 
